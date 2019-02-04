@@ -6,7 +6,10 @@
 
 ### CSS Basics
 
-Getting started with CSS syntax.
+Getting started with CSS syntax. What is the rationale for using CSS?
+
+* HTML is used for structure of page
+* CSS is used for styling of the website
 
 ```css
 div {
