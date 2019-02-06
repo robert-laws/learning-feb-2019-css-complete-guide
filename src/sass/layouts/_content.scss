@@ -1,1 +1,41 @@
 // Unique styles for content area
+
+.welcome {
+  $self: &;
+
+  &__header {
+
+  }
+
+  &__body {
+
+  }
+
+  &__footer {
+
+    #{$self}__cta {
+      padding: 1rem;
+
+      h3 {
+        color: $color-secondary;
+      }
+
+      button {
+        background-color: lighten($color-primary, 15%);
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        color: $color-white;
+        font-size: 1.5rem;
+        border: none;
+      }
+  
+      [disabled] {
+        background-color: red;
+      }
+    }
+
+    #{$self}__cta--shadow {
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    }
+  }
+}

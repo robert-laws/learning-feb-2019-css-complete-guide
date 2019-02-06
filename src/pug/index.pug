@@ -2,13 +2,16 @@ extends layouts/default.pug
 
 block content
   main
-    section.welcome
+    article.welcome
       header.welcome__header
         h1 CSS Complete Guide Website
         p Exploring CSS in all its variations
-      div.welcome__body
+      section.welcome__body
         h2 CSS Complete Guide Website
         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, temporibus? Quibusdam accusantium dicta laudantium ut iste commodi, iure reiciendis eligendi quae velit consequuntur dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero voluptatum distinctio sunt veniam quasi dolores itaque expedita deleniti natus?
-      div.welcome__footer
+      footer.welcome__footer
         h2 CSS Complete Guide Website
         p Some more text visible here
+        .welcome__cta.welcome__cta--shadow
+          h3 Learn More
+          button(disabled) Click Here
