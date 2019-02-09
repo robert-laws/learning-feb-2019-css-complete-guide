@@ -1,5 +1,4 @@
 // Unique styles for content area
-
 .welcome {
   $self: &;
 
@@ -12,6 +11,10 @@
   }
 
   &__footer {
+
+    a:hover ~ h2 {
+      color: red;
+    }
 
     #{$self}__cta {
       padding: 1rem;
@@ -30,7 +33,7 @@
       }
   
       [disabled] {
-        background-color: red;
+        background-color: darkgreen;
       }
     }
 

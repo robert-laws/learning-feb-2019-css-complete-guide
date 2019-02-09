@@ -10,3 +10,17 @@ h1 {
   font-family: $serif-alt-font-family;
 }
 
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: $color-link-primary;
+  }
+
+  &:hover,
+  &:active {
+    color: darken($color-link-primary, 12%);
+  }
+}
