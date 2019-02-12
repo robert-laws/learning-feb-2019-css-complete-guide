@@ -12,9 +12,17 @@
 
   &__footer {
 
-    a:hover ~ h2 {
-      color: red;
+    h2 {
+      opacity: 0;
+      transition: opacity 2s ease-out;
     }
+
+    a:hover ~ h2 {
+      animation: linkMove 2s ease-in 0s 1 forwards;
+      opacity: 1;
+    }
+
+
 
     #{$self}__cta {
       padding: 1rem;
@@ -40,5 +48,14 @@
     #{$self}__cta--shadow {
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     }
+  }
+}
+
+@keyframes linkMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
   }
 }
