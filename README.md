@@ -4,9 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3996aefd-c1bc-484d-8417-fd25da0e1d89/deploy-status)](https://app.netlify.com/sites/learning-feb-2019-css-complete-guide/deploys)
 
-## Course Content & Important Notes
-
-### CSS Basics
+## CSS Basics
 
 Getting started with CSS syntax. What is the rationale for using CSS?
 
@@ -23,7 +21,7 @@ div {
 }
 ```
 
-#### CSS Combinators
+### CSS Combinators
 
 **Adjacent Sibling**
 
@@ -101,4 +99,4 @@ ul span {
 }
 ```
 
-### Beyond the Basics
+## Beyond the Basics
