@@ -4,6 +4,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3996aefd-c1bc-484d-8417-fd25da0e1d89/deploy-status)](https://app.netlify.com/sites/learning-feb-2019-css-complete-guide/deploys)
 
+**Table of Contents**
+
+* [CSS Basics](#css-basics)
+* [Beyond the Basics](#beyond-the-basics)
+
 ## CSS Basics
 
 Getting started with CSS syntax. What is the rationale for using CSS?
