@@ -8,6 +8,34 @@
 
   &__body {
 
+    h1 {
+      color: green;
+    }
+
+    ul {
+      padding-left: 5rem; 
+    }
+
+    // combinators
+    // adjacent sibling - share same parent, second element comes immediately after first
+    h1 + h2 {
+      color: red;
+    }
+
+    // general sibling - same parent, second element after first, not necessarily direct
+    h1 ~ ul {
+      font-size: 2rem;
+    }
+
+    // child combinator - second element is direct child of an element
+    p > span {
+      color: red;
+    }
+
+    // descendent - second element is child of an element
+    ul span {
+      color: blue;
+    }
   }
 
   &__footer {
@@ -21,8 +49,6 @@
       animation: linkMove 2s ease-in 0s 1 forwards;
       opacity: 1;
     }
-
-
 
     #{$self}__cta {
       padding: 1rem;
